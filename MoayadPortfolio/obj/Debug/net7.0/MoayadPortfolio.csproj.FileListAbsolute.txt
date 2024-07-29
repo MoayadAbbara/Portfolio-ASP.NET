@@ -1,0 +1,152 @@
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\appsettings.json
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\MoayadPortfolio.staticwebassets.runtime.json
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\MoayadPortfolio.exe
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\MoayadPortfolio.deps.json
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\MoayadPortfolio.runtimeconfig.json
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\MoayadPortfolio.dll
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\MoayadPortfolio.pdb
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\BusinessLayer.dll
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\DataLayer.dll
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\DTO.dll
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\BusinessLayer.pdb
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\DataLayer.pdb
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\DTO.pdb
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\obj\Debug\net7.0\MoayadPortfolio.csproj.AssemblyReference.cache
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\obj\Debug\net7.0\MoayadPortfolio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\obj\Debug\net7.0\MoayadPortfolio.AssemblyInfoInputs.cache
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\obj\Debug\net7.0\MoayadPortfolio.AssemblyInfo.cs
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\obj\Debug\net7.0\MoayadPortfolio.csproj.CoreCompileInputs.cache
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\obj\Debug\net7.0\MoayadPortfolio.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\obj\Debug\net7.0\MoayadPortfolio.RazorAssemblyInfo.cache
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\obj\Debug\net7.0\MoayadPortfolio.RazorAssemblyInfo.cs
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\obj\Debug\net7.0\staticwebassets\msbuild.MoayadPortfolio.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\obj\Debug\net7.0\staticwebassets\msbuild.build.MoayadPortfolio.props
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.MoayadPortfolio.props
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.MoayadPortfolio.props
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\obj\Debug\net7.0\scopedcss\bundle\MoayadPortfolio.styles.css
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\obj\Debug\net7.0\scopedcss\projectbundle\MoayadPortfolio.bundle.scp.css
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\obj\Debug\net7.0\MoayadPortfolio.csproj.CopyComplete
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\obj\Debug\net7.0\MoayadPortfolio.dll
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\obj\Debug\net7.0\refint\MoayadPortfolio.dll
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\obj\Debug\net7.0\MoayadPortfolio.pdb
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\obj\Debug\net7.0\MoayadPortfolio.genruntimeconfig.cache
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\MoayadPortfolio\obj\Debug\net7.0\ref\MoayadPortfolio.dll
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\appsettings.json
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\MoayadPortfolio.staticwebassets.runtime.json
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\MoayadPortfolio.exe
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\MoayadPortfolio.deps.json
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\MoayadPortfolio.runtimeconfig.json
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\MoayadPortfolio.dll
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\MoayadPortfolio.pdb
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\BusinessLayer.dll
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\DataLayer.dll
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\DTO.dll
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\BusinessLayer.pdb
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\DataLayer.pdb
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\bin\Debug\net7.0\DTO.pdb
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\obj\Debug\net7.0\MoayadPortfolio.csproj.AssemblyReference.cache
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\obj\Debug\net7.0\MoayadPortfolio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\obj\Debug\net7.0\MoayadPortfolio.AssemblyInfoInputs.cache
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\obj\Debug\net7.0\MoayadPortfolio.AssemblyInfo.cs
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\obj\Debug\net7.0\MoayadPortfolio.csproj.CoreCompileInputs.cache
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\obj\Debug\net7.0\MoayadPortfolio.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\obj\Debug\net7.0\MoayadPortfolio.RazorAssemblyInfo.cache
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\obj\Debug\net7.0\MoayadPortfolio.RazorAssemblyInfo.cs
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\obj\Debug\net7.0\staticwebassets\msbuild.MoayadPortfolio.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\obj\Debug\net7.0\staticwebassets\msbuild.build.MoayadPortfolio.props
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.MoayadPortfolio.props
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.MoayadPortfolio.props
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\obj\Debug\net7.0\scopedcss\bundle\MoayadPortfolio.styles.css
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\obj\Debug\net7.0\scopedcss\projectbundle\MoayadPortfolio.bundle.scp.css
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\obj\Debug\net7.0\MoayadPortfolio.csproj.CopyComplete
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\obj\Debug\net7.0\MoayadPortfolio.dll
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\obj\Debug\net7.0\refint\MoayadPortfolio.dll
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\obj\Debug\net7.0\MoayadPortfolio.pdb
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\obj\Debug\net7.0\MoayadPortfolio.genruntimeconfig.cache
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\MoayadPortfolio\obj\Debug\net7.0\ref\MoayadPortfolio.dll

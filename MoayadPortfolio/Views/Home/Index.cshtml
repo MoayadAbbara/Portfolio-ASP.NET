@@ -1,0 +1,273 @@
+﻿@model (List<DTO.Response.Facts> FactsList , List<DTO.Response.Skills> SkillsList , List<DTO.Response.Services> ServicesList , List<DTO.Response.Education> EducationList , List<DTO.Response.Experience> ExperienceList , List<DTO.Response.ProjectTypes> projectTypes , List<DTO.Response.Projects> ProjectsList)
+@{
+    ViewData["Title"] = "Home Page";
+
+}
+
+<!-- ======= Hero Section ======= -->
+<section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+        <h1>Moayad Abbara</h1>
+        <p><span class="typed" data-typed-items="Flutter, Laravel, Asp.net"></span>Developer</p>
+    </div>
+</section><!-- End Hero -->
+
+<main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+        <div class="container">
+
+            <div class="section-title">
+                <h2>About Me</h2>
+                <p>
+                    Third-year Computer Engineering student at Bilecik Şeyh Edebali
+                    University.
+                     I am a passionate and driven software developer with a knack for turning ideas into elegant, efficient code.
+                    with a strong interest in Web development and mobile
+                    application development. Recognized as the top student of the
+                    Engineering Faculty for two consecutive years with a GPA of 3.63.
+                </p>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4" data-aos="fade-right">
+                    <img src="~/img/profile-img.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+                    <h3>Mobile Application &amp; Web Developer.</h3>
+                    <p class="fst-italic">
+                    </p>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <ul>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>10 June 2003</span></li>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+90 534 680 47 99</span></li>
+                                <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Bilecik, Turkey</span></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6">
+                            <ul>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>Moayad.yos@gmail.com</span></li>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>undergraduate </span></li>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p>
+                        When I'm not coding, you can find me playing chess or video games , reading books or watching football matches . 
+                        I believe in the importance of maintaining a healthy work-life balance to stay energized and inspired.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section><!-- End About Section -->
+    <!-- ======= Facts Section ======= -->
+    <section id="facts" class="facts">
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Facts</h2>
+                <p></p>
+            </div>
+
+            <div class="row no-gutters">
+
+                @foreach (var item in Model.FactsList)
+                {
+                    <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+                        <div class="count-box">
+                            <i class="@item.IconClassName"></i>
+                            <span data-purecounter-start="0" data-purecounter-end="@item.Num" data-purecounter-duration="1" class="purecounter"></span>
+                            <p><strong>@item.Fact</strong></p>
+                        </div>
+                    </div>
+                }
+            </div>
+
+        </div>
+    </section><!-- End Facts Section -->
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Skills</h2>
+                <p>Below are some of my skills that I've cultivated over time, but I'm always enthusiastic about expanding my knowledge and learning new things. It's an ongoing journey of growth and discovery, and I'm excited to see where it leads.</p>
+            </div>
+
+            <div class="row skills-content">
+                @for (int i = 0; i < @Model.SkillsList.Count; i += 1)
+                {
+                    <div class="col-lg-6" data-aos="fade-up">
+                        @for (int j = i; j < Math.Min(i + 1, @Model.SkillsList.Count); j++)
+                        {
+                            var skill = @Model.SkillsList[j];
+                            <div class="progress">
+                                <span class="skill">@skill.Name <i class="val">@skill.Ratio%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="@skill.Ratio" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                }
+            </div>
+
+        </div>
+    </section><!-- End Skills Section -->
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+        <div class="container">
+            <div class="section-title">
+                <h2>Resume</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-up">
+                    <h3 class="resume-title">Education</h3>
+                    @foreach(var item in Model.EducationList)
+                    {
+                        <div class="resume-item">
+                            <h4>@item.Degree</h4>
+                            <h5>@item.StartYear - @item.EndYear</h5>
+                            <p><em>@item.School</em></p>
+                            <p>@item.Description</p>
+                        </div>
+                    }
+                </div>
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                    <h3 class="resume-title">Professional Experience</h3>
+                    @foreach(var item in Model.ExperienceList)
+                    {
+                        var presentOrEndYear = (item.EndYear == DateTime.Now.Year) ? "Present" : item.EndYear.ToString();
+                        <div class="resume-item">
+                            <h4>@item.Title - @item.Company</h4>
+                            <h5>@item.StartYear - @presentOrEndYear</h5>
+                            <p><em>@item.Location</em></p>
+                            <ul>
+                                @foreach(var listitem in item.Details)
+                                {
+                                    <li>@listitem</li>
+                                }
+                            </ul>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </section><!-- End Resume Section -->
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Projects</h2>
+                <p>Discover my work, highlighting my expertise in design, development, and user experience. Each project showcases my dedication to quality and innovation.</p>
+            </div>
+            <div class="row" data-aos="fade-up">
+                <div class="col-lg-12 d-flex justify-content-center">
+                    <ul id="portfolio-flters">
+                        <li data-filter="*" class="filter-active">All</li>
+                        @foreach(var item in Model.projectTypes)
+                        {
+                            <li data-filter=".filter-@item.Type">@item.Type</li>
+                        }
+                    </ul>
+                </div>
+            </div>
+            <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+                @foreach(var item in Model.ProjectsList)
+                {
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-@item.Type">
+                        <div class="portfolio-wrap">
+                            <img src="@item.Images[0]" class="img-fluid" alt="">
+                            <div class="portfolio-links">
+                                <a href="portfolio-details.html">@item.Title</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </section><!-- End Portfolio Section -->
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Services</h2>
+            </div>
+            <div class="row">
+                @foreach(var item in Model.ServicesList)
+                {
+                    <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+                        <div class="icon"><i class="@item.IconClass"></i></div>
+                        <h4 class="title"><a href="">@item.Name</a></h4>
+                        <p class="description">@item.Description</p>
+                    </div>
+                }
+            </div>
+        </div>
+    </section><!-- End Services Section -->
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact section-bg">
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Contact</h2>
+            </div>
+
+            <div class="row" data-aos="fade-in">
+
+                <div class="col-lg-5 d-flex align-items-stretch">
+                    <div class="info">
+                        <div class="address">
+                            <i class="bi bi-geo-alt"></i>
+                            <h4>Location:</h4>
+                            <p>Bilecik Turkey</p>
+                        </div>
+
+                        <div class="email">
+                            <i class="bi bi-envelope"></i>
+                            <h4>Email:</h4>
+                            <p>Moayad.yos@gmail.com</p>
+                        </div>
+
+                        <div class="phone">
+                            <i class="bi bi-phone"></i>
+                            <h4>Call:</h4>
+                            <p>+90 534 680 47 99</p>
+                        </div>
+
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+                    <form action="/Message/SendMessage" method="post" >
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <label for="name">Your Name</label>
+                                <input type="text" name="Name" class="form-control" id="name" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="email">Your Email</label>
+                                <input type="email" class="form-control" name="Email" id="email" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" class="form-control" name="Subject" id="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" name="MessageText" id="message" rows="10" required></textarea>
+                        </div> 
+                        <input type="submit" value="Send" />
+                        <div class="text-center"><button type="submit">Send Message</button></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section><!-- End Contact Section -->
+</main><!-- End #main -->

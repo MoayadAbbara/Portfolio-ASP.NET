@@ -1,0 +1,338 @@
+﻿@model (List<DTO.Response.Facts> FactsList , List<DTO.Response.Skills> SkillsList , List<DTO.Response.Services> ServicesList , List<DTO.Response.Education> EducationList , List<DTO.Response.Experience> ExperienceList , List<DTO.Response.Projects> ProjectsList , List<DTO.Response.ProjectTypes> projectTypes , List<DTO.Response.Message> MessageList)
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="~/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <title>Admin Panel</title>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <header class="d-flex justify-content-center py-3 bg-dark">
+            <ul class="nav nav-pills navbar-dark navbar-expand">
+                <li class="nav-item"><a href="/" class="nav-link text-light" aria-current="page">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-light">Features</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-light">Pricing</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-light">FAQs</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-light">About</a></li>
+            </ul>
+        </header>
+    </div>
+
+    <!--Facts Table-->
+    <div class="container my-5">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h1 class="mb-0">Facts</h1>
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#AddFact"><i class="bi bi-plus"></i> Add New Item</button>
+        </div>
+        <div class="table-responsive">
+            <table class="table table-bordered table-hover text-center">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Fact</th>
+                        <th scope="col">Number</th>
+                        <th scope="col">Icon</th>
+                        <th scope="col">Edit</th>
+                        <th scope="col">Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.FactsList)
+                    {
+                        <tr>
+                            <td>@item.ID</td>
+                            <td>@item.Fact</td>
+                            <td>@item.Num</td>
+                            <td><i class="@item.IconClassName"></i></td>
+                            <td><button type="button" class="btn btn-warning EditFact" data-toggle="modal" data-target="#EditFactModal" data-id="@item.ID"><i class="bi bi-pencil-square" style="color:white;"></i></button></td>
+                            @* <td><button type="button" class="btn btn-warning EditSkill" data-toggle="modal" data-target="#EditSkillModal" data-id="@item.ID"><i class="bi bi-pencil-square" style="color:white;"></i></button></td> *@
+
+                            <td><a href="/Fact/DeleteFact/@item.ID" class="btn btn-danger"><i class="bi bi-trash"></i></a></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+
+    <!--Skills Table-->
+    <div class="container my-5">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h1 class="mb-0">Skills</h1>
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#AddSkill"><i class="bi bi-plus"></i> Add New Item</button>
+        </div>
+        <div class="table-responsive">
+            <table class="table table-bordered table-hover text-center">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Skill</th>
+                        <th scope="col">Ratio</th>
+                        <th scope="col">Edit</th>
+                        <th scope="col">Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.SkillsList)
+                    {
+                        <tr>
+                            <td>@item.ID</td>
+                            <td>@item.Name</td>
+                            <td>@item.Ratio</td>
+                            <td><button type="button" class="btn btn-warning EditSkill" data-toggle="modal" data-target="#EditSkillModal" data-id="@item.ID"><i class="bi bi-pencil-square" style="color:white;"></i></button></td>
+                            <td><a href="Skill/DeleteSkill/@item.ID" class="btn btn-danger"><i class="bi bi-trash"></i></a></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+
+    <!--Services Table-->
+    <div class="container my-5">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h1 class="mb-0">Services</h1>
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#AddService"><i class="bi bi-plus"></i> Add New Item</button>
+        </div>
+        <div class="table-responsive">
+            <table class="table table-bordered table-hover text-center">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Service</th>
+                        <th scope="col">Description</th>
+                        <th scope="col">Icon</th>
+                        <th scope="col">Edit</th>
+                        <th scope="col">Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.ServicesList)
+                    {
+                        <tr>
+                            <td>@item.ID</td>
+                            <td>@item.Name</td>
+                            <td>@item.Description</td>
+                            <td><i class="@item.IconClass"></i></td>
+                            <td><button type="button" class="btn btn-warning"><i class="bi bi-pencil-square" style="color:white;"></i></button></td>
+                            <td><a href="/Service/DeleteService/@item.ID" class="btn btn-danger"><i class="bi bi-trash"></i></a></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+
+
+
+    <!--Education Table-->
+    <div class="container my-5">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h1 class="mb-0">Education</h1>
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#AddEducation"><i class="bi bi-plus"></i> Add New Item</button>
+        </div>
+        <div class="table-responsive">
+            <table class="table table-bordered table-hover text-center">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Degree</th>
+                        <th scope="col">Start Year</th>
+                        <th scope="col">End Year</th>
+                        <th scope="col">Institution</th>
+                        <th scope="col">Description</th>
+                        <th scope="col">Edit</th>
+                        <th scope="col">Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.EducationList)
+                    {
+                        <tr>
+                            <td>@item.ID</td>
+                            <td>@item.Degree</td>
+                            <td>@item.StartYear</td>
+                            <td>@item.EndYear</td>
+                            <td>@item.School</td>
+                            <td>@item.Description</td>
+                            <td><button type="button" class="btn btn-warning"><i class="bi bi-pencil-square" style="color:white;"></i></button></td>
+                            <td><a href="/Education/DeleteEducation/@item.ID" class="btn btn-danger"><i class="bi bi-trash"></i></a></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+
+
+    <!--Experince Table-->
+    <div class="container my-5">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h1 class="mb-0">Experince</h1>
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#AddExperince"><i class="bi bi-plus"></i> Add New Item</button>
+        </div>
+        <div class="table-responsive">
+            <table class="table table-bordered table-hover text-center">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Job Title</th>
+                        <th scope="col">Company Name</th>
+                        <th scope="col">Start Year</th>
+                        <th scope="col">End Year</th>
+                        <th scope="col">Location</th>
+                        <th scope="col">Edit</th>
+                        <th scope="col">Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.ExperienceList)
+                    {
+                        <tr>
+                            <td>@item.ID</td>
+                            <td>@item.Title</td>
+                            <td>@item.Company</td>
+                            <td>@item.StartYear</td>
+                            <td>@item.EndYear</td>
+                            <td>@item.Location</td>
+                            <td><button type="button" class="btn btn-warning"><i class="bi bi-pencil-square" style="color:white;"></i></button></td>
+                            <td><a href="/Experince/DeleteSkill/@item.ID" class="btn btn-danger"><i class="bi bi-trash"></i></a></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+
+
+    <!--Project Table-->
+    <div class="container my-5">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h1 class="mb-0">Project</h1>
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#AddProject"><i class="bi bi-plus"></i> Add New Item</button>
+        </div>
+        <div class="table-responsive">
+            <table class="table table-bordered table-hover text-center">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Project Name</th>
+                        <th scope="col">Type</th>
+                        <th scope="col">Link</th>
+                        <th scope="col">Date</th>
+                        <th scope="col">Description</th>
+                        <th scope="col">Edit</th>
+                        <th scope="col">Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.ProjectsList)
+                    {
+                        <tr>
+                            <td>@item.id</td>
+                            <td>@item.Title</td>
+                            <td>@item.Type</td>
+                            <td><a href="@item.Link" target="_blank">Click Here</a></td>
+                            <td>@item.ProjectDate</td>
+                            <td>@item.Description</td>
+                            @* <td><button type="button" class="btn btn-warning"><i class="bi bi-pencil-square" style="color:white;"></i></button></td> *@
+                            <td><button type="button" class="btn btn-warning EditProject" data-toggle="modal" data-target="#EditProjectModal" data-id="@item.id"><i class="bi bi-pencil-square" style="color:white;"></i></button></td>
+
+                            <td><a href="/Project/DeleteProject/@item.id" class="btn btn-danger"><i class="bi bi-trash"></i></a></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+
+
+    <div class="container my-5">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h1 class="mb-0">Messages</h1>
+        </div>
+        <div class="table-responsive">
+            <table class="table table-bordered table-hover text-center">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Sender Name</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">Subject</th>
+                        <th scope="col">Message</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.MessageList)
+                    {
+                        <tr>
+                            <td>@item.Id</td>
+                            <td>@item.Name</td>
+                            <td>@item.Email</td>
+                            <td>@item.Subject</td>
+                            <td>@item.MessageText</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- Modal -->
+    @* Include the modal partial view *@
+    <partial name="/Views/Modals/_AddSkillModal.cshtml"></partial>
+    <partial name="/Views/Modals/_EditSkillModal.cshtml"></partial>
+
+
+    <partial name="/Views/Modals/_AddFactModal.cshtml"></partial>
+    <partial name="/Views/Modals/_EditFactModal.cshtml"></partial>
+
+
+    <partial name="/Views/Modals/_AddServiceModal.cshtml"></partial>
+
+
+    <partial name="/Views/Modals/_AddEducationModal.cshtml"></partial>
+
+
+    <partial name="/Views/Modals/_AddExperinceModal.cshtml"></partial>
+
+
+    <partial name="/Views/Modals/_AddProjectModal.cshtml" model="Model.projectTypes"></partial>
+    <partial name="/Views/Modals/_EditProjectModal.cshtml" model="Model.projectTypes"></partial>
+
+
+
+
+
+
+    <script src="~/js/Modals.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

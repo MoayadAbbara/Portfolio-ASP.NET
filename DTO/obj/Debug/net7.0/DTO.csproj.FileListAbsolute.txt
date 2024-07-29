@@ -1,0 +1,30 @@
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\DTO\bin\Debug\net7.0\DTO.deps.json
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\DTO\bin\Debug\net7.0\DTO.dll
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\DTO\bin\Debug\net7.0\DTO.pdb
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\DTO\bin\Debug\net7.0\DataLayer.dll
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\DTO\bin\Debug\net7.0\DataLayer.pdb
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\DTO\obj\Debug\net7.0\DTO.csproj.AssemblyReference.cache
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\DTO\obj\Debug\net7.0\DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\DTO\obj\Debug\net7.0\DTO.AssemblyInfoInputs.cache
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\DTO\obj\Debug\net7.0\DTO.AssemblyInfo.cs
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\DTO\obj\Debug\net7.0\DTO.csproj.CoreCompileInputs.cache
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\DTO\obj\Debug\net7.0\DTO.csproj.CopyComplete
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\DTO\obj\Debug\net7.0\DTO.dll
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\DTO\obj\Debug\net7.0\refint\DTO.dll
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\DTO\obj\Debug\net7.0\DTO.pdb
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\DTO\obj\Debug\net7.0\ref\DTO.dll
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\DTO\bin\Debug\net7.0\DTO.deps.json
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\DTO\bin\Debug\net7.0\DTO.dll
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\DTO\bin\Debug\net7.0\DTO.pdb
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\DTO\bin\Debug\net7.0\DataLayer.dll
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\DTO\bin\Debug\net7.0\DataLayer.pdb
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\DTO\obj\Debug\net7.0\DTO.csproj.AssemblyReference.cache
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\DTO\obj\Debug\net7.0\DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\DTO\obj\Debug\net7.0\DTO.AssemblyInfoInputs.cache
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\DTO\obj\Debug\net7.0\DTO.AssemblyInfo.cs
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\DTO\obj\Debug\net7.0\DTO.csproj.CoreCompileInputs.cache
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\DTO\obj\Debug\net7.0\DTO.csproj.CopyComplete
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\DTO\obj\Debug\net7.0\DTO.dll
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\DTO\obj\Debug\net7.0\refint\DTO.dll
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\DTO\obj\Debug\net7.0\DTO.pdb
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\DTO\obj\Debug\net7.0\ref\DTO.dll

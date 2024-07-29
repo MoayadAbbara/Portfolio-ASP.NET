@@ -1,0 +1,83 @@
+﻿@model List<DTO.Response.ProjectTypes>
+
+<!-- Views/Shared/_ExampleModal.cshtml -->
+<div class="modal fade" id="EditProjectModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Edit Project</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <form method="post" action="/Project/EditProject">
+                <div class="modal-body">
+                    <input type="hidden" id="ProjectId" name="id" />
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroup-sizing-default">ProjectName</span>
+                        </div>
+                        <input type="text" class="form-control" name="Title" id="ProjectName">
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroup-sizing-default">Project Type</span>
+                        </div>
+                        <select class="custom-select" name="Type" id="ProjectType">
+                            @foreach (var item in Model)
+                            {
+                                <option value="@item.id">@item.Type</option>
+                            }
+                        </select>
+                    </div>
+
+
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroup-sizing-default">Link</span>
+                        </div>
+                        <input type="text" class="form-control" name="Link" id="ProjectLink">
+                    </div>
+
+
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroup-sizing-default">Date</span>
+                        </div>
+                        <input type="date" class="form-control" name="ProjectDate" id="ProjectDate">
+                    </div>
+
+
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroup-sizing-default">Description</span>
+                        </div>
+                        <input type="text" class="form-control" name="Description" id="ProjectDescription">
+                    </div>
+
+                    <!-- Section for displaying images -->
+                    <div class="mb-3" id="ProjectImages">
+                        <label>Project Images:</label>
+                        <div id="ImagesContainer">
+
+                        </div>
+                    </div>
+
+
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroup-sizing-default">ImageLink</span>
+                        </div>
+                        <input type="text" class="form-control" name="ImageLink" id="ImageLink">
+                        <a class="btn btn-dark addNewImage" style="color:white;">Add</a>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <input type="submit" class="btn btn-success" value="Save Changes" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

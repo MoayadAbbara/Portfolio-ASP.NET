@@ -1,0 +1,34 @@
+﻿<!-- Views/Shared/_EditSkillModal.cshtml -->
+<div class="modal fade" id="EditSkillModal" tabindex="-1" role="dialog" aria-labelledby="editModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="editModalLabel">Edit Skill</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <form method="post" action="/Skill/EditSkill">
+                <div class="modal-body">
+                    <input type="hidden" id="SkillId" name="ID" />
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroup-sizing-default">Skill</span>
+                        </div>
+                        <input type="text" class="form-control" id="SkillName" name="Name">
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroup-sizing-default">Ratio</span>
+                        </div>
+                        <input type="number" class="form-control" id="SkillRatio" name="Ratio" min="0" max="100">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <input type="submit" class="btn btn-success" value="Save Changes" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

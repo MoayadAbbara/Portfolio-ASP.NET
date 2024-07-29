@@ -1,0 +1,28 @@
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\DataLayer\bin\Debug\net7.0\DataLayer.deps.json
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\DataLayer\bin\Debug\net7.0\DataLayer.runtimeconfig.json
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\DataLayer\bin\Debug\net7.0\DataLayer.dll
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\DataLayer\bin\Debug\net7.0\DataLayer.pdb
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\DataLayer\obj\Debug\net7.0\DataLayer.csproj.AssemblyReference.cache
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\DataLayer\obj\Debug\net7.0\DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\DataLayer\obj\Debug\net7.0\DataLayer.AssemblyInfoInputs.cache
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\DataLayer\obj\Debug\net7.0\DataLayer.AssemblyInfo.cs
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\DataLayer\obj\Debug\net7.0\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\DataLayer\obj\Debug\net7.0\DataLayer.dll
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\DataLayer\obj\Debug\net7.0\refint\DataLayer.dll
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\DataLayer\obj\Debug\net7.0\DataLayer.pdb
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\DataLayer\obj\Debug\net7.0\DataLayer.genruntimeconfig.cache
+C:\Users\madod\Desktop\WebCatisi\MoayadPortfolio\DataLayer\obj\Debug\net7.0\ref\DataLayer.dll
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\DataLayer\bin\Debug\net7.0\DataLayer.deps.json
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\DataLayer\bin\Debug\net7.0\DataLayer.runtimeconfig.json
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\DataLayer\bin\Debug\net7.0\DataLayer.dll
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\DataLayer\bin\Debug\net7.0\DataLayer.pdb
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\DataLayer\obj\Debug\net7.0\DataLayer.csproj.AssemblyReference.cache
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\DataLayer\obj\Debug\net7.0\DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\DataLayer\obj\Debug\net7.0\DataLayer.AssemblyInfoInputs.cache
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\DataLayer\obj\Debug\net7.0\DataLayer.AssemblyInfo.cs
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\DataLayer\obj\Debug\net7.0\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\DataLayer\obj\Debug\net7.0\DataLayer.dll
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\DataLayer\obj\Debug\net7.0\refint\DataLayer.dll
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\DataLayer\obj\Debug\net7.0\DataLayer.pdb
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\DataLayer\obj\Debug\net7.0\DataLayer.genruntimeconfig.cache
+C:\Users\madod\Desktop\Asp Project\MoayadPortfolio\DataLayer\obj\Debug\net7.0\ref\DataLayer.dll
